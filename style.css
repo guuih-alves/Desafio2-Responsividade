@@ -1,50 +1,67 @@
 *{
     margin: 0px;
-    font-family: 'inter';
+}
+
+html{
+    font-size: 16px;
+    font-family: "DM Serif Display", serif;
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+h1{
+    font-size: 2.0rem;
+}
+
+h3{
+    font-size: 1.4rem;
 }
 
 header{
     background-color: rgba(2, 162, 143, 1);
     height: 50px;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
-    padding: 10px 0 0 173px;
+    padding: 0.6rem 0 0 10.8rem;
 }
 
 #cabecalho{
      display: flex;
-     margin-left: 156px;
+     margin-left: 9.5rem;
+     margin-top: 1.2rem;
 }
 
 
 .itens{
      display: flex;
-     width: 390px;
-     height: 96px;
-     margin-top: 18px;
+     width: 24.3rem;
+     height: 6rem;
+     margin-top: 1.2rem;
      border-radius: 10px;
      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
    
 }
 
 #item-main{
-    display: flex;
-    
+    display: flex;  
 }
 
 .text{
-      margin-left: 10px;
+      margin-left: 0.62rem;
       align-items: center;
 }
 
 #topics{
 
     background-color: rgba(2, 162, 143, 1);
-    width: 360px;
-    height: 48px;
+    width: 22.5rem;
+    height: 3rem;
     border-radius: 10px;
     color: rgba(255, 255, 255, 1);
     text-align: left;
-    margin-top: 10px;
+    margin-top: 0.8rem;
 
 }
 
@@ -53,8 +70,8 @@ header{
 }
 
 .itens{
-    width: 366px;
-    height: 96px;
+    width: 22.8rem;
+    height: 6rem;
 }
 
 
@@ -104,19 +121,19 @@ align-items: flex-end;
 #categorias{
     justify-content: space-between;
     gap: 2rem;
-    margin-left: 10px;
+    margin-left: 0.8rem ;
 
 }
 
 #cat-itens{
     display: grid;
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
  
 }
 
 .ident{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     display: flex;
     justify-content: space-between;
@@ -139,12 +156,16 @@ footer{
 
 @media only screen and (max-width: 767px){    /* Para celular*/
 
+    h1{
+    font-size: 1.5rem;
+    }
+
     header{
     
     background-color: rgba(2, 162, 143, 1);
     display: grid;
-    height: 50px;
-    width: 730px;
+    height: 2.5rem;
+    width: 100%;
     color: rgba(255, 255, 255, 1);
 
     }
@@ -154,13 +175,13 @@ footer{
     }
 
     #cabecalho img{
-        width: 384px;
+        width: 24rem;
     }
 
     #post-title{
     background-color: rgba(2, 162, 143, 1);
-    width: 368px;
-    height: 40px;
+    width: 23rem;
+    height: 2.5rem;
     border-radius: 10px;
     color: rgba(255, 255, 255, 1);
     }
@@ -170,27 +191,34 @@ footer{
     background-color: rgba(2, 162, 143, 1);
     border-radius: 10px;
     color: rgba(255, 255, 255, 1);
-    margin-top: 10px;
+    margin-top: 0.6rem;
     }
 
      .grid-container{
         display: grid;
         grid-template-columns: 1fr;
         justify-content: center;
+        margin-top: 1.2rem;
     }  
     
     #item-main{
-        margin-top: 20px;
-        display: grid;
 
+        display: grid;
     }
+
+    #left-side{
+        margin-top: 1.2rem;
+       margin-left: -1.2rem;
+    }
+
     #categorias{
-        margin-top: 770px;
-        margin-left: 153px;
+        margin-top: 48.1rem;
+        margin-left: 9.5rem;
+        margin-bottom: 0.8rem;
     }
 
     footer{
-        width: 730px;
+        width: 100%;
     }
 
 }
